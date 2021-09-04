@@ -1,0 +1,107 @@
+/* GLOBAL CSS */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #f7f6f2;
+  max-width: 1200px;
+  margin: auto;
+  padding: 2% 5%;
+}
+
+main {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2% 5%;
+  position: relative;
+}
+
+p {
+  font-weight: 900;
+}
+
+.main_container {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 900px;
+  position: relative;
+}
+
+.card {
+  display: inline-table;
+  max-width: 100%;
+  min-width: 250px;
+  position: relative;
+  width: 33%;
+}
+
+
+/* IMAGES */
+
+.imgnow img {
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  padding: 0;
+  right: 0;
+  top: 0;
+}
+
+.imghover img {
+  display: none;
+  position: absolute;
+}
+
+.img_card:hover .imghover img {
+  display: inline-block;
+}
+
+/* ICON */
+
+.heart {
+  background-color: white;
+  color: black;
+  font-size: 25px;
+  padding: 5px 10px 5px 10px;
+  position: absolute;
+  right: 0px;
+  top: 10px;
+}
+
+/* LABELS */
+
+.etichette {
+  bottom: 60px;
+  color: white;
+  display: inline-block;
+  position: absolute;
+  left: 5px;
+  padding: 3px 5px;
+}
+
+
+/* DESCRIPTION IMAGE */
+
+.percentuale {
+  background-color: #f8485e;
+}
+
+.scritta {
+  background-color: #368b85;
+}
+
+.description_card {
+  height: 100%;
+  max-width: 100%;
+}
+
+
+
+.red_text {
+  color: #f8485e;
+}
