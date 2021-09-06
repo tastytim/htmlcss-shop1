@@ -30,6 +30,7 @@ p {
   margin-right: auto;
   max-width: 900px;
   position: relative;
+  word-spacing: -4px;
 }
 
 .card {
@@ -37,7 +38,8 @@ p {
   max-width: 100%;
   min-width: 250px;
   position: relative;
-  width: 33%;
+  width: calc(100%/3);
+  padding: 2px 8px;
 }
 
 
@@ -69,7 +71,7 @@ p {
   font-size: 25px;
   padding: 5px 10px 5px 10px;
   position: absolute;
-  right: 0px;
+  right: 8px;
   top: 10px;
 }
 
